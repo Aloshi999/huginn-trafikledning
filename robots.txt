@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aloshi999.github.io/huginn-trafikledning/sitemap.xml

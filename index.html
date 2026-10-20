@@ -7,12 +7,15 @@
   <meta name="description" content="Huginn Trafikledning erbjuder konsulttjänster inom vägtrafik och trafikledning för åkerier och transportföretag: planering av lastbilstransporter, ruttoptimering, inhyrd trafikledare och stöd kring kör- och vilotider. Baserad i Uppsala – uppdrag på distans i hela Sverige.">
   <meta name="theme-color" content="#022452">
 
+  <!-- BAS-URL: https://aloshi999.github.io/huginn-trafikledning/ – byt här (canonical, og:url, og:image, JSON-LD) samt i robots.txt och sitemap.xml vid egen domän -->
+  <link rel="canonical" href="https://aloshi999.github.io/huginn-trafikledning/">
   <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aloshi999.github.io/huginn-trafikledning/">
   <meta property="og:locale" content="sv_SE">
   <meta property="og:site_name" content="Huginn Trafikledning">
   <meta property="og:title" content="Huginn Trafikledning – Vi hjälper dig på vägen">
   <meta property="og:description" content="Konsulttjänster inom trafikledning för åkerier och transportföretag: planering, ruttoptimering, inhyrd trafikledare och kör- och vilotider. Baserad i Uppsala – på distans i hela Sverige.">
-  <meta property="og:image" content="assets/og-image.jpg">
+  <meta property="og:image" content="https://aloshi999.github.io/huginn-trafikledning/assets/og-image.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Huginn Trafikledning – korpen Huginn vakar över vägen">
@@ -31,14 +34,15 @@
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     "name": "Huginn Trafikledning",
+    "url": "https://aloshi999.github.io/huginn-trafikledning/",
     "slogan": "Vi hjälper dig på vägen",
     "description": "Konsulttjänster inom vägtrafik och trafikledning för åkerier och transportföretag. Baserad i Uppsala, uppdrag på distans i hela Sverige.",
     "email": "huginntrafikledning@gmail.com",
     "founder": { "@type": "Person", "name": "Ahmad Ali" },
     "address": { "@type": "PostalAddress", "addressLocality": "Uppsala", "addressCountry": "SE" },
     "areaServed": { "@type": "Country", "name": "Sverige" },
-    "image": "assets/og-image.jpg",
-    "logo": "assets/emblem-512.png"
+    "image": "https://aloshi999.github.io/huginn-trafikledning/assets/og-image.jpg",
+    "logo": "https://aloshi999.github.io/huginn-trafikledning/assets/emblem-512.png"
   }
   </script>
   <script>document.documentElement.classList.add('js');</script>
@@ -96,7 +100,10 @@
           </div>
         </div>
         <div class="hero-visual">
-          <img src="assets/emblem-ljus.png" width="720" height="718" alt="Huginns emblem: korpen Huginn på en klippa som vakar över en slingrande väg, omgiven av en ring med runor som stavar HUGINN.">
+          <picture>
+            <source type="image/webp" srcset="assets/emblem-ljus-512.webp 512w, assets/emblem-ljus-720.webp 720w" sizes="(max-width: 760px) 205px, (max-width: 1000px) 300px, 410px">
+            <img src="assets/emblem-ljus-512.png" srcset="assets/emblem-ljus-512.png 512w, assets/emblem-ljus.png 720w" sizes="(max-width: 760px) 205px, (max-width: 1000px) 300px, 410px" width="720" height="718" alt="Huginns emblem: korpen Huginn på en klippa som vakar över en slingrande väg, omgiven av en ring med runor som stavar HUGINN.">
+          </picture>
         </div>
       </div>
       <svg class="hero-road" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true" focusable="false">
@@ -267,7 +274,7 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <a class="footer-brand" href="#top" aria-label="Till början av sidan">
-        <img src="assets/emblem-ljus.png" width="72" height="72" loading="lazy" alt="">
+        <img src="assets/emblem-ljus-128.png" srcset="assets/emblem-ljus-128.png 1x, assets/emblem-ljus-256.png 2x" width="72" height="72" loading="lazy" alt="">
         <span>
           <span class="footer-name">Huginn Trafikledning</span>
           <span class="footer-slogan">Vi hjälper dig på vägen</span>
